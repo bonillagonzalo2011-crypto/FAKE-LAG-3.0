@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0A0A0C"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FAKE-LAG-3.0"
+        android:textColor="#00E5FF"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ESTADO: DESCONECTADO"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnVpn"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="CONECTAR"
+        android:textColor="#0A0A0C"
+        android:textStyle="bold"
+        android:backgroundTint="#00E5FF"
+        android:layout_marginBottom="24dp" />
+
+    <Switch
+        android:id="@+id/switchLag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activar Estabilizador Dinámico"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:thumbTint="#00E5FF"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/txtDelay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retraso: 100 ms"
+        android:textColor="#CCCCCC"
+        android:textSize="14sp"
+        android:layout_marginBottom="8dp" />
+
+    <SeekBar
+        android:id="@+id/seekBarDelay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="1000"
+        android:progress="100" />
+
+</LinearLayout>
