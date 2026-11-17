@@ -1,0 +1,15 @@
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+bin/
+gen/
+out/
+.gradle/
+build/
+local.properties
+.idea/
+.DS_Store
+*.iml
+.apt_generated
